@@ -1,5 +1,7 @@
 # build-unigine-editor-plugin-in-docker-environment
 
+[![UnigineVersion](https://img.shields.io/badge/Unigine-2.16.1-yellow.svg)](https://developer.unigine.com/en/docs/2.16.1/)
+
 hub.docker: https://hub.docker.com/r/sea5kg/unigine-editor-pluigns
 
 Environment for build unigine-editor-plugins in docker (Linux)
@@ -13,7 +15,7 @@ $ docker run --rm -it -v `pwd`:/opt/sources sea5kg/unigine-editor-pluigns:latest
 ```
 
 Installed:
- - cmake 
+ - cmake 3.20.5
  - Qt5.12.8
  - gcc g++
  - etc
