@@ -1,6 +1,6 @@
 # build-unigine-editor-plugin-in-docker-environment
 
-[![UnigineVersion](https://img.shields.io/badge/Unigine-2.16.1-yellow.svg)](https://developer.unigine.com/en/docs/2.16.1/)
+[![UnigineVersion](https://img.shields.io/badge/Unigine-2.17-yellow.svg)](https://developer.unigine.com/en/docs/2.17/)
 
 hub.docker: https://hub.docker.com/r/sea5kg/unigine-editor-pluigns
 

@@ -15,16 +15,16 @@ check_ret() {
     fi
 }
 
-docker rmi sea5kg/unigine-editor-pluigns:v2.16.1
+docker rmi sea5kg/unigine-editor-pluigns:v2.17
 docker rmi sea5kg/unigine-editor-pluigns:latest
 
 docker build -t sea5kg/unigine-editor-pluigns:latest .
 check_ret $?
 
-docker build -t sea5kg/unigine-editor-pluigns:v2.16.1 .
+docker build -t sea5kg/unigine-editor-pluigns:v2.17 .
 check_ret $?
 
 
-# run 
+# run
 
 # docker run --rm -it -v `pwd`:/opt/sources sea5kg/unigine-pluigns:latest /bin/bash

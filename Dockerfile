@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 # basic libs
-RUN apt update &&\
+RUN apt update && \
     DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
     python3 \
     wget \
@@ -27,5 +27,5 @@ RUN set -ex && mkdir /usr/local/etc/cmake && \
     chmod +x /tmp/cmake-3.20.5-linux-x86_64.sh && \
     /tmp/cmake-3.20.5-linux-x86_64.sh --skip-license --prefix=/usr/local/etc/cmake && \
     cd / && ln -s /usr/local/etc/cmake/bin/cmake /usr/local/bin/cmake
- 
+
 WORKDIR /opt/sources
